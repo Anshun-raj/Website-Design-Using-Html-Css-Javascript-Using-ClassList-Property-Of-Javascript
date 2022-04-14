@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 100%;
+    min-height: 100vh;
+    background-color: black;
+}
+
+.nav {
+    display: flex;
+}
+
+.menu {
+    width: 1.5%;
+    height: 29px;
+    padding-top: 15px;
+    margin-left: 90px;
+    cursor: pointer;
+}
+
+.logo {
+    width: 11%;
+    height: 38px;
+    padding-left: 5px;
+    padding-top: 7px;
+    margin-left: 20px;
+}
+
+.main ul {
+    padding-top: 12px;
+    margin-left: 37%;
+    display: flex;
+    gap: 15px;
+}
+
+ul li {
+    list-style: none;
+    padding-left: 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+button {
+    border-radius: 13px;
+    background-color: #efefef;
+    width: 52px;
+    height: 26px;
+    margin-left: 14px;
+    margin-top: 10px;
+    outline: 0;
+    border: 0;
+    padding-right: 50px;
+    cursor: pointer;
+}
+
+.lamp-light {
+    display: grid;
+}
+
+.lamp {
+    width: 19%;
+    margin-left: 45%;
+    margin-top: -6%;
+}
+
+.light {
+    width: 69%;
+    margin-left: 19%;
+    margin-top: -3px;
+    height: 370px;
+    opacity: 0;
+    transition: opacity 0.4s;
+}
+
+.child {
+    display: flex;
+}
+
+h1 {
+    color: white;
+    margin-top: 100px;
+    margin-left: 85px;
+    font-size: 47px;
+}
+
+p {
+    color: white;
+    margin-left: 85px;
+    font-size: 13px;
+    padding-bottom: 30px;
+}
+
+.bar {
+    text-decoration: none;
+    margin-left: 88px;
+    border-radius: 22px;
+    background-color: #00986f;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.active {
+    background-color: green;
+}
+
+.on {
+    opacity: 1;
+}
